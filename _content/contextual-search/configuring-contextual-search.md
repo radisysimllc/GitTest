@@ -34,6 +34,7 @@ To support this, you should design your eventing accordingly.
 
 For example, if you are using stats like SinglePlayerMap and MultiplayerMap to filter content, the player is only going to be in one of them at once. However, both values will be available to query from the service at any time.
 It’s important that as you set one stat, you clear out the other.
+
 For string-based stats, an empty string is great (make sure not to include that in your UI configuration as an option).
 
 
@@ -55,7 +56,7 @@ Presently, the maximum number of stat instances you can configure for Contextual
 On this page, each of the stats is represented in the following manner:
 Priority - Display Name (Stat Instance Name)
 
-Each of these will be explained in more detail in the following section.
+Each of these will be explained in more detail in the following section. 
 
 ![New Contextual search configuration screenshot from Xbox Developer Portal](../images/contextual_search/config01.png)
 
